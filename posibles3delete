@@ -1,0 +1,13 @@
+{
+  "Id": "Policy1675723523722",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1675723519359",
+      "Action": "s3:*",
+      "Effect": "Deny",
+      "Resource": "arn:aws:s3:::studygp2",
+      "Principal": "*"
+    }
+  ]
+}
